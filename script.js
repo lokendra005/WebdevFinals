@@ -3,7 +3,7 @@ console.log("connected");
 let post_btn = document.querySelector("#post-btn")
 
 post_btn.addEventListener('click',(e)=>{
-    let posts_box = document.querySelector(".posts") //posts box
+    let postsBox = document.querySelector(".posts") //posts box
     let main_post = document.createElement('div');
     main_post.innerHTML = 
     `<div class="main-post">
