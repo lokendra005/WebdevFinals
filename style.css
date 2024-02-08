@@ -24,7 +24,7 @@
 .main{
     display: flex;
 }
-.postBox{
+.post_box{
     margin-top: 150px;
     height: 55%;
     width: 75%;
