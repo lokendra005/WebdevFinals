@@ -3,7 +3,7 @@ console.log("connected");
 let post_btn = document.querySelector("#post-btn")
 
 post_btn.addEventListener('click',(e)=>{
-    let postsBox = document.querySelector(".posts") //posts box
+    let posts_box = document.querySelector(".posts") //posts box
     let main_post = document.createElement('div');
     main_post.innerHTML = 
     `<div class="main-post">
@@ -31,9 +31,9 @@ post_btn.addEventListener('click',(e)=>{
     </div>`
 
     posts_box.appendChild(main_post);
-
 })
-
+    let post_area = document.querySelector("#post-area");
+    console.log(post_area.getAttribute['value'])
 
 let post_area = document.querySelector("#post-area");
 console.log(post_area.getAttribute['value'])
