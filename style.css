@@ -24,10 +24,10 @@
 .main{
     display: flex;
 }
-.post-box{
+.postBox{
     margin-top: 150px;
     border-radius: 10px;
-    height: 50%;
+    height: 55%;
     width: 75%;
     display: flex;
     align-items: center;
